@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="resources/css/style.css">
+    <link rel="stylesheet" href="resources/css/queries.css">
+    <link rel="stylesheet" href="vendors/css/bootstrap.min.css">
+    <title>My portfolio</title>
+</head>
+<body>
+    <div class="container-fluid bg-dark navigation">
+        <nav>
+            <img src="resources/img/logo.png" alt="Revocafe logo" class="float-left rounded-circle">
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">Services</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <header>
+        <div class="container bottom" id="home">
+            <h1 class="text-white text-center">Hello everyone and welcome back</h1>
+            <p class="text-white text-center">I love to make cool and professional websites. Passionate about programming and making new stuffs. Together we can do much as a team.</p>
+            <button type="button" class="btn btn-primary">Contact Me</button>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2 class="text-center">More about me</h2>
+            <img src="resources/img/person.png" alt="Joel" class="float-left round">
+            <div class="text">
+                <h3>I'm Joel</h3>
+                <p>I started coding while in my university. I studied <span class="text-success">BSc. Library and Information science</span> at Egerton University. We had learned about <span class="text-info">Integrated Library Management Systems (ILMS)</span> in the library. I was passionate to know how these systems are programmed and maintained. This made me to jump into programming to study. From there every day I have learnt new stuffs.</p>
+            </div>
+            <p class="bottom"></p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2 class="text-center">Skills</h2>
+            <div class="left-align">
+                <h3>Professional Skills</h3>
+                <p>In my journey of coding, I have managed to acquire several skills. Currently I have skills in the following areas of the profession</p>
+                <table class="table table-bordered table-hover table-dark">
+                    <thead>
+                        <tr>
+                            <th>Skills</th>
+                            <th>Rating</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>HTML5</td>
+                            <td>85%</td>
+                        </tr>
+                        <tr>
+                            <td>CSS3</td>
+                            <td>89%</td>
+                        </tr>
+                        <tr>
+                            <td>JavaScript</td>
+                            <td>82%</td>
+                        </tr>
+                        <tr>
+                            <td>Framework</td>
+                            <td>80%</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <img src="resources/img/comp.png" alt="Computer" class="float-right rounded">
+            <p class="bottom"></p>
+        </div>
+    </section>
+
+    <section id="feedback">
+        <div class="container">
+            <div class="feedback-content">
+                <h2 class="text-white text-center">I would like to hear from you</h2>
+                <form action="../Revocafe/index.html" target="_blank" class="form-field">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" class="form-control" placeholder="Enter your name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea name="" id="message" class="form-control" placeholder="Enter your message"></textarea>
+                    </div>
+                    <button class="btn btn-info">Send Feedback</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+    <script src="vendors/js/jquery-3.5.1.js"></script>
+    <script src="resources/js/script.js"></script>
+</body>
+</html>

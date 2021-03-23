@@ -1,0 +1,203 @@
+/******************************************/
+/*    BASIC SETUP    */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+/******************************************/
+/*    GLOBAL CLASSES    */
+
+
+
+
+/******************************************/
+/*    IMAGES    */
+
+.navigation img{
+    width: 100px;
+    margin-top: -3%;
+}
+
+
+/******************************************/
+/*    NAVIGATION    */
+
+.navigation{
+    position: sticky;
+    top: 0;
+}
+
+
+
+/******************************************/
+/*    LINKS    */
+
+.navigation nav li a{
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.navigation nav li a:hover{
+    color: #f99;
+}
+
+.navigation nav{
+    padding: 3% 8%;
+}
+
+
+/******************************************/
+/*    HEADER    */
+
+header{
+    background:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../css/img/Nature-Background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+header h1{
+    padding-top: 10%;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 300;
+    padding-bottom: 2%;
+}
+
+header p{
+    font-size: 25px;
+    font-weight: 300;
+    padding-bottom: 2%;
+}
+
+header .bottom{
+    padding-bottom: 12%;
+}
+
+header .btn{
+    margin-left: 45%;
+    font-size: 22px;
+}
+
+
+/******************************************/
+/*    ABOUT    */
+
+#about{
+    padding-top: 70px;
+}
+
+#about img{
+    width: 250px;
+    height: 250px;
+    margin-right: 60px;
+}
+
+#about h2{
+    font-weight: 300;
+    font-size: 28px;
+    text-transform: uppercase;
+    padding-top: 6%;
+    padding-bottom: 3%;
+}
+
+.text{
+    padding-top: 3%;
+}
+
+.text h3{
+    font-weight: 300;
+    font-size: 27px;
+}
+
+.text p{
+    font-weight: 300;
+    font-size: 20px;
+}
+
+#about .bottom{
+    padding-bottom: 8%;
+}
+
+/******************************************/
+/*    SKILLS    */
+
+#skills{
+    background: #f45;
+    color: #fff;
+    padding-top: 70px;
+}
+
+#skills img{
+    width: 400px;
+    margin-top: -25%;
+}
+
+#skills h2{
+    padding-top: 5%;
+    font-weight: 300;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding-bottom: 3%;
+}
+
+#skills h3{
+    font-weight: 300;
+    font-size: 26px;
+    padding-bottom: 1%;
+}
+
+#skills p{
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.left-align{
+    width: 60%;
+}
+
+#skills .bottom{
+    padding-bottom: 6%;
+}
+
+
+/******************************************/
+/*    FEEDBACK    */
+
+#feedback{
+    background:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../css/img/Nature-Background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    padding-top: 4%;
+}
+
+.feedback-content h2{
+    padding-bottom: 3%;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.form-field{
+    color: #fff;
+    font-size: 22px;
+    font-weight: 300;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.form-field button{
+    margin-left: 40%;
+    margin-top: 3%;
+    margin-bottom: 8%;
+    margin-bottom: 8%;
+}
